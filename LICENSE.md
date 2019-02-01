@@ -1,7 +1,6 @@
-
 The MIT License (MIT)
 
-Copyright (c) 2018: Chris Rackauckas.
+Copyright (c) 2018: Chris Rackauckas. Modifications (c) 2019 Jonathan Goldfarb
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

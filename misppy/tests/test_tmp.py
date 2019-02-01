@@ -1,6 +1,3 @@
-from .. import de
-
-
 def test():
     def f(du,u,p,t):
         resid1 = - 0.04*u[0]               + 1e4*u[1]*u[2] - du[0]
@@ -12,5 +9,5 @@ def test():
     du0 = [-0.04, 0.04, 0.0]
     tspan = (0.0,100000.0)
     differential_vars = [True,True,False]
-    prob = de.DAEProblem(f,du0,u0,tspan,differential_vars=differential_vars)
-    sol = de.solve(prob)
+    prob = None
+    sol = None

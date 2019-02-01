@@ -4,9 +4,9 @@ def readme():
     with open('README.md') as f:
         return f.read()
 
-setup(name='diffeqpy',
+setup(name='misppy',
       version='1.0.0',
-      description='Solving Differential Equations in Python',
+      description='Multiphase Stefan Problem Solver in Python',
       long_description=readme(),
       classifiers=[
         'Development Status :: 4 - Beta',
@@ -16,12 +16,12 @@ setup(name='diffeqpy',
         'Topic :: Scientific/Engineering :: Mathematics',
         'Topic :: Scientific/Engineering :: Physics'
       ],
-      url='http://github.com/JuliaDiffEq/diffeqpy',
-      keywords='differential equations stochastic ordinary delay differential-algebraic dae ode sde dde',
-      author='Chris Rackauckas and Takafumi Arakaki',
-      author_email='contact@juliadiffeq.org',
+      url='http://github.com/jgoldfar/misppy',
+      keywords='differential equations stefan problem multiphase',
+      author='Jonathan Goldfarb',
+      author_email='jgoldfar@gmail.com',
       license='MIT',
-      packages=['diffeqpy','diffeqpy.tests'],
+      packages=['misppy','misppy.tests'],
       install_requires=['julia>=0.2'],
       include_package_data=True,
       zip_safe=False)
